@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Timer';
+    src: url('../fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Graduate', cursive;
+    text-align: center;
+    background-image: url("../images/stadium.jpg");
+    background-size: cover;
+}
+
+button {
+    font-family: 'Timer';
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+    background: #D97706;
+    color: #E0F2FE;
+    border: 1px solid #E0F2FE;
+    border-radius: 5px;
+    text-shadow: 0px 0px 1px black;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    background: #D97706;
+    padding: 30px 30px 50px;
+    border: 5px solid #065F46;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Timer';
+    text-align: center;
+    background: black;
+    color: red;
+    text-shadow: 0px 0px 1px red;
+    margin: 15px;
+    padding: 16px 32px;
+    font-size: 50px;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+button:active {
+    color: #E0F2FE;
+    border: 1px solid #E0F2FE;
+    border-radius: 5px;
+}
